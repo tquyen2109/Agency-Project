@@ -1,5 +1,8 @@
 $(document).ready(function(){
-    
-    $('.preloader').fadeOut()
-
+//preloader
+ $('.preloader').fadeOut()
+//navBtn
+$('.navBtn').click(function(){
+    $('.nav').toggleClass('nav--show')
+})
 })
